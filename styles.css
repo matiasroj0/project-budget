@@ -45,3 +45,9 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+#result {
+  padding: 5rem 0;
+  font-weight: bold;
+  font-size: 2rem;
+}

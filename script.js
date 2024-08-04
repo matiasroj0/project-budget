@@ -45,9 +45,7 @@ function updateProgress() {
 
   if (current !== "" && goal !== "" && goal != 0) {
     const progress = (current / goal) * 100;
-    document.getElementById("result").innerText = `Progreso: ${progress.toFixed(
-      2
-    )}%`;
+    document.getElementById("result").innerText = `${progress.toFixed(2)}%`;
     document.getElementById("circleText").innerText = `${progress.toFixed(2)}%`;
   }
 }
